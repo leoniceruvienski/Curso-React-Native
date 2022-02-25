@@ -1,34 +1,27 @@
 import React, { Component} from 'react';
-import { Text, View, StyleSheet } from 'react-native';
+import { Text, View } from 'react-native';
 
 class App extends Component{
 
   render(){
 
     return(
-      <View style={styles.area}>
-      
-        <Text style={[styles.textoPrincipal, styles.alinhaTexto]}>Eu sou texto 1</Text>
-        <Text style={styles.alinhaTexto}>Eu sou texto 2</Text>
-        <Text>Eu sou texto 3</Text>
-        <Text style={styles.textoPrincipal}>Eu sou texto 4</Text>
-  
+      <View style={{flex:1, backgroundColor: '#ddd'}}>
+
+        <View style={{height: 65, backgroundColor: '#222'}}>
+         
+        </View>
+
+        <View style={{flex:1, backgroundColor: '#ddd'}}>
+        <Text>Meu primeiro texto</Text>
+        </View>
+
+        <View style={{height:65, backgroundColor: '#222'}}></View>
+       
+    
       </View>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  area:{
-    marginTop: 100
-  },
-  textoPrincipal:{
-    fontSize: 25,
-    color: '#FF0000'
-  },
-  alinhaTexto: {
-    textAlign: 'center'
-  }
-})
 
 export default App;
