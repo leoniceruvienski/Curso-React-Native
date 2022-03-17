@@ -33,6 +33,7 @@ export default class App extends Component{
 
   //Metodo que é chamado quando você clica no botao Abrir Conta
   enviarDados(){
+    
 
     if(this.state.nome === '' || this.state.idade === ''){
       alert('Preencha todos dados corretamente!')
@@ -204,3 +205,5 @@ botaoTexto:{
 
 });
 //export default App;
+
+//teste
