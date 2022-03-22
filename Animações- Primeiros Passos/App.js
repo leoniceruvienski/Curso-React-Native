@@ -34,6 +34,8 @@ export default class App extends Component{
   } 
 }  
 
+// teste
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
