@@ -34,5 +34,7 @@ const styles = StyleSheet.create({
   },
 });
 
+//teste
+
 export default App;
 
